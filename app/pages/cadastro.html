@@ -10,7 +10,7 @@
 
 <body>
     <div>
-        <form action="#">
+        <form action="#" onsubmit="reverterDados(this)">
             <label for="nome">Nome</label>
             <input type="text" id="nome" placeholder="Digite seu nome"><br>
             <label for="segundo_nome">Segundo nome</label>
@@ -21,9 +21,10 @@
             <input type="email" id="email" placeholder="Digite seu email"><br>
             <label for="telefone">Telefone</label>
             <input type="number" placeholder="Digite seu telefone"><br>
-            <input type="button" value="Enviar">
+            <input type="submit" value="Enviar">
         </form>
     </div>
+    <script src="../scripts/index.js"></script>
 </body>
 
 </html>
